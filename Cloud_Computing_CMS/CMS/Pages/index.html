@@ -1,0 +1,164 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Dashboard</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<!-- VENDOR CSS -->
+	<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/vendor/linearicons/style.css">
+	<!-- MAIN CSS -->
+	<link rel="stylesheet" href="assets/css/main.css">
+	<!-- FOR DEMO PURPOSES ONLY. You should remove this in your project -->
+	<link rel="stylesheet" href="assets/css/demo.css">
+	<!-- GOOGLE FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+	<!-- ICONS -->
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
+
+    <style type="text/css">
+
+        ._select_zone_span{
+              margin-right: 17px;
+              font-size: 20px;
+        }
+
+        .submitButton{
+            margin-right : 2%;
+
+        }
+
+
+    </style>
+
+
+
+</head>
+
+<body>
+	<!-- WRAPPER -->
+	<div id="wrapper">
+		<!-- NAVBAR -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="brand">
+                <a href="index.html">Container Management System</a>
+            </div>
+            <div class="container-fluid">
+                <div class="navbar-btn">
+                    <button type="button" class="btn-toggle-fullwidth"><i class="lnr lnr-arrow-left-circle"></i></button>
+                </div>
+                <div class="navbar-btn navbar-btn-right">
+                    <a class="btn btn-success update-pro" href="javascript:OnClickLogOut();" title="Log Out"> <span>Log Out</span></a>
+                </div>
+                <div id="navbar-menu">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span>Welcome</span> <span id="usernameSpanId"></span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+		<!-- END NAVBAR -->
+		<!-- LEFT SIDEBAR -->
+        <div id="sidebar-nav" class="sidebar">
+            <div class="sidebar-scroll">
+                <nav>
+                    <ul class="nav">
+                        <li><a href="index.html" class="active"><span>Container Booking</span></a></li>
+                        <!--<li><a href="elements.html"><span>Arrival</span></a></li>-->
+                        <li><!--<a href="charts.html" class=""><i class="lnr lnr-chart-bars"></i> <span>Charts</span></a>--></li>
+                        <!--<li><a href="notifications.html" class=""><i class="lnr lnr-alarm"></i> <span>Notifications</span></a></li>-->
+  
+
+                        <li><a href="Depart_log.html" id="adminId"><span>Departure Log</span></a></li>
+                        <li><a href="Arrival_Log.html" class=""><span>Arrival Log</span></a></li>
+                        <li>
+                            <a href="#subPages" data-toggle="collapse" class="collapsed"><span>Container</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
+                            <div id="subPages" class="collapse ">
+                                <ul class="nav">
+                                    <li><a href="page-profile.html" class="">Edit Profile</a></li>
+
+                                </ul>
+                            </div>
+                        </li>
+
+
+                        <!--<li><a href="typography.html" class=""><i class="lnr lnr-text-format"></i> <span>Typography</span></a></li>
+                    <li><a href="icons.html" class=""><i class="lnr lnr-linearicons"></i> <span>Icons</span></a></li>-->
+                    </ul>
+                </nav>
+            </div>
+        </div>
+		<!-- END LEFT SIDEBAR -->
+		<!-- MAIN -->
+		<div class="main">
+			<!-- MAIN CONTENT -->
+			<div class="main-content">
+				<div class="container-fluid">
+					<!--<h3 class="page-title">Container Management System</h3>-->
+                    <div class="row" id="stepTwoSection">
+                        <!-- Dynamic Content -->
+
+                    </div>
+
+
+
+					<div class="row" id="mainRowId">
+						<div class="col-md-6" style="width : 100%;">
+
+							<!-- TABLE HOVER -->
+							<div class="panel" style="display : none;">
+								<div class="panel-heading">
+									<h3 class="panel-title">Zone Country Details</h3>
+								</div>
+								<div class="panel-body" id="Zone_cont_Id">
+                                    <!-- Dynamic Data -->
+								</div>
+							</div>
+							<!-- END TABLE HOVER -->
+
+                            <!-- INPUTS -->
+                            <div class="panel" id="select_zone_panel_Id">
+                            
+                                <!-- Dynamic Contents -->    
+                            </div>
+                            <!-- END INPUTS -->
+
+                            <!-- INPUTS -->
+                            <div class="panel" id="_select_container_panel_id">
+                                <!-- Dynamic Contents -->
+
+                            </div>
+                            <!-- END INPUTS -->
+                            
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<!-- END MAIN CONTENT -->
+		</div>
+		<!-- END MAIN -->
+		<div class="clearfix"></div>
+		<footer>
+			<div class="container-fluid">
+				<p class="copyright">&copy; 2018 <a href="#" target="_blank">Maersk's Line</a>. All Rights Reserved.</p>
+			</div>
+		</footer>
+	</div>
+	<!-- END WRAPPER -->
+	<!-- Javascript -->
+	<script src="assets/vendor/jquery/jquery.min.js"></script>
+	<script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/vendor/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+	<script src="assets/scripts/klorofil-common.js"></script>
+    <script type="text/javascript" src="assets/scripts/JS_Custom.js"></script>
+</body>
+
+</html>

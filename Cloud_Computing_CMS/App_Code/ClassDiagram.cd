@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BL_ArrivalData">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAEAAAgAAAAAAAAAAEAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>App_Code\BusinessLogicLayer\BL_Arrival_Data\BL_ArrivalData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BL_DeptData">
+    <Position X="1.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAEAAEAAAAAAAAAAAAAAAAAgAAAAAACAAAAAA=</HashCode>
+      <FileName>App_Code\BusinessLogicLayer\BL_Dept_Data\BL_DeptData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Object">
+    <Position X="5.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BL_zone_cont_">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEEEAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\BusinessLogicLayer\BL_zone_cont\BL_zone_cont_.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalConnection">
+    <Position X="9.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\DataConnectionLayer\GlobalConnection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API_cloudComputing_CMS_Webservice">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAACIAAAAAAABAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Code\API_cloudComputing_CMS_Webservice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
